@@ -1,0 +1,47 @@
+.del-div{
+    background-image: "assets/images/veg-shopping.png";
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.del-div .question{
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    left: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: animation 1s ease-in-out;
+}
+
+@keyframes animation {
+    0%{
+        top: 50%;
+        opacity: 0;
+    }
+    100%{
+        top: 40%;
+        opacity: 1;
+    }
+}
+
+.del-div .question .btns{
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem;
+}
+
+.wdth{
+    width: 100px;
+}
+
+.wdth2{
+    width: 100px;
+}
+
+.del-div .question .btns button{
+    margin-right: 5rem;
+}

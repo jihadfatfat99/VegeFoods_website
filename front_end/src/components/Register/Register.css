@@ -1,0 +1,77 @@
+.div2 {
+    position: relative;
+}
+
+.div2 .form2 {
+    position: absolute;
+    top: 24%;
+    left: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    animation: anime2 1s ease-in forwards;
+}
+
+@keyframes anime2 {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.div2 .form2 .form-part {
+    display: flex;
+    flex-direction: column;
+}
+
+.div2 .form2 .log {
+    align-self: center;
+    padding-top: 1rem;
+}
+
+.div2 .form2 .head1 {
+    position: relative;
+    font-size: 40px;
+    font-weight: 600;
+    color: #000000;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.div2 .form2 .form-part label{
+    font-size: 17px;
+    color: #333333;
+}
+
+.div2 .form2 .form-part .input {
+    display: block;
+    width: 120%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.div2 .form2 .form-part .input:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.spans{
+    margin-right: 15px;
+    font-size: 15px !important;
+    color: #000000;
+}

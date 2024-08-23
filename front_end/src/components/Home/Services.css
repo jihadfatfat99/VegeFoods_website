@@ -1,0 +1,7 @@
+.service{
+    transition: transform 0.3s ease;
+}
+
+.service:hover{
+    transform: scale(1.1);
+}

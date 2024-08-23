@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&amp;display=swap"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/animate.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/aos.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/ionicons.min.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/jquery.timepicker.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/flaticon.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/icomoon.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/style.css">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- <script
+    nonce="af2074f1-9201-4e82-81f9-81d1dd385356">(function (w, d) { !function (bt, bu, bv, bw) { bt[bv] = bt[bv] || {}; bt[bv].executed = []; bt.zaraz = { deferred: [], listeners: [] }; bt.zaraz.q = []; bt.zaraz._f = function (bx) { return function () { var by = Array.prototype.slice.call(arguments); bt.zaraz.q.push({ m: bx, a: by }) } }; for (const bz of ["track", "set", "debug"]) bt.zaraz[bz] = bt.zaraz._f(bz); bt.zaraz.init = () => { var bA = bu.getElementsByTagName(bw)[0], bB = bu.createElement(bw), bC = bu.getElementsByTagName("title")[0]; bC && (bt[bv].t = bu.getElementsByTagName("title")[0].text); bt[bv].x = Math.random(); bt[bv].w = bt.screen.width; bt[bv].h = bt.screen.height; bt[bv].j = bt.innerHeight; bt[bv].e = bt.innerWidth; bt[bv].l = bt.location.href; bt[bv].r = bu.referrer; bt[bv].k = bt.screen.colorDepth; bt[bv].n = bu.characterSet; bt[bv].o = (new Date).getTimezoneOffset(); if (bt.dataLayer) for (const bG of Object.entries(Object.entries(dataLayer).reduce(((bH, bI) => ({ ...bH[1], ...bI[1] })), {}))) zaraz.set(bG[0], bG[1], { scope: "page" }); bt[bv].q = []; for (; bt.zaraz.q.length;) { const bJ = bt.zaraz.q.shift(); bt[bv].q.push(bJ) } bB.defer = !0; for (const bK of [localStorage, sessionStorage]) Object.keys(bK || {}).filter((bM => bM.startsWith("_zaraz_"))).forEach((bL => { try { bt[bv]["z_" + bL.slice(7)] = JSON.parse(bK.getItem(bL)) } catch { bt[bv]["z_" + bL.slice(7)] = bK.getItem(bL) } })); bB.referrerPolicy = "origin"; bB.src = "../../cdn-cgi/zaraz/sd0d9.js?z=" + btoa(encodeURIComponent(JSON.stringify(bt[bv]))); bA.parentNode.insertBefore(bB, bA) };["complete", "interactive"].includes(bu.readyState) ? zaraz.init() : bt.addEventListener("DOMContentLoaded", zaraz.init) }(w, d, "zarazData", "script"); })(window, document);</script> -->
+    <script src="%PUBLIC_URL%/assets/js/jquery.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/popper.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/bootstrap.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/jquery.easing.1.3.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/jquery.waypoints.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/jquery.stellar.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/owl.carousel.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/aos.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/jquery.animateNumber.min.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/bootstrap-datepicker.js"></script>
+    <script src="%PUBLIC_URL%/assets/js/scrollax.min.js"></script>
+    <!-- <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false"></script>
+    <script src="%PUBLIC_URL%/assets/js/google-map.js"></script> -->
+    <script src="%PUBLIC_URL%/assets/js/main.js"></script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-23581568-13');
+  </script>
+  <!-- <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854"
+    integrity="sha512-bjgnUKX4azu3dLTVtie9u6TKqgx29RBwfj3QXYt5EKfWM/9hPSAI/4qcV5NACjwAo8UtTeWefx6Zq5PHcMm7Tg=="
+    data-cf-beacon='{"rayId":"7f2f39897e6012ac","version":"2023.7.0","b":1,"token":"cd0b4b3a733644fc843ef0b185f98241","si":100}'
+    crossorigin="anonymous"></script> -->
+    
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
